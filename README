@@ -1,0 +1,4 @@
+Catalyst-View-R
+
+This is a view for the Catalyts framework that displays output from R scripts
+as png, pdf or any other format that R can output.
