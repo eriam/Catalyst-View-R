@@ -8,6 +8,8 @@ use base 'Catalyst::Controller';
 
 # your actions replace this one
 sub main : Path {
+    my ( $self, $c ) = @_;
+    
    $c->log->info('ok');
    $c->stash->{r} = 'iris1.r';  
 }
