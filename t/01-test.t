@@ -1,7 +1,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 1;
+use Test::More tests => 3;
 
 # setup library path
 use FindBin qw($Bin);
