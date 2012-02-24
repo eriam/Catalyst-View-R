@@ -1,4 +1,0 @@
-
-data(iris)
-plot(iris)
-
