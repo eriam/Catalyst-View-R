@@ -11,12 +11,7 @@ sub main : Path {
     my ( $self, $c ) = @_;
     
    $c->log->info('ok');
-   $c->stash->{r} = 'iris1.r';  
-}
-
-sub iris2 : Global {
-    my ( $self, $c ) = @_;
-
+   $c->stash->{r} = 'iris.r';  
 }
 
 

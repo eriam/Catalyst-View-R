@@ -7,12 +7,8 @@ use base 'Catalyst::View::R';
 __PACKAGE__->config({
    CATALYST_VAR         => 'c',
    TEMPLATE_EXTENSION   => '.r',
-   ABSOLUTE             => 1,
+#   ABSOLUTE             => 1,
    PRE_PROCESS          => 'config/R',
-   INCLUDE_PATH         => [
-      '../root/src/',
-      '../root/lib/',
-   ],
 });
 
 

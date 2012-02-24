@@ -34,9 +34,8 @@ sub process {
    
    $c->stash->{result_file} = $result_file->filename;
    
+   
    my $output = $self->render($c, $template);
-
-   print STDERR  $result_file->filename."\n";
    
    my $R = Statistics::R->new() ;
       
