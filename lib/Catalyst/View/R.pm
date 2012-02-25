@@ -1,6 +1,7 @@
 package Catalyst::View::R;
 
 use strict;
+use warnings;
 use base 'Catalyst::View::TT';
 use File::Slurp;
 use File::Temp qw/ tempfile tempdir /;
