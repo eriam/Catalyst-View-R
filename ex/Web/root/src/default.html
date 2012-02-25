@@ -1,0 +1,17 @@
+[% META title = 'Choose an element to plot from the iris data set!' %]
+<p>
+
+<ul>
+	<li><a href='?plot=Sepal.Length'>Sepal.Length</a></li>
+	<li><a href='?plot=Sepal.Width'>Sepal.Width</a></li>
+	<li><a href='?plot=Petal.Length'>Petal.Length</a></li>
+	<li><a href='?plot=Petal.Width'>Petal.Width</a></li>
+	<li><a href='?plot=Species'>Species</a></li>
+<br/>
+
+[% IF c.request.param('plot') != '' %]
+
+	<img src='/iris?width=400&height=400&plot=[% c.request.param('plot') %]' />
+
+[% END %]
+</p>

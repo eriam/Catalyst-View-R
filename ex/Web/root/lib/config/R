@@ -1,0 +1,7 @@
+
+png(
+   "[% result_file %]", 
+   bg="white", 
+   width=[% c.request.param('width') %], 
+   height=[% c.request.param('height') %]
+)
