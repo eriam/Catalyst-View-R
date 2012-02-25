@@ -1,5 +1,4 @@
 .releaserc
-Catalyst-View-R-0.01_1.tar.gz
 Changes
 ex/Web/lib/Web.pm
 ex/Web/lib/Web/Controller/Root.pm
