@@ -7,7 +7,7 @@ use File::Slurp;
 use File::Temp qw/ tempfile tempdir /;
 use Statistics::R;
 
-our $VERSION = "0.01_1";
+our $VERSION = "0.01_2";
 
 sub process {
    my ( $self, $c ) = @_;
