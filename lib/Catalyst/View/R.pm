@@ -83,16 +83,21 @@ With the correspondig view:
 	data(iris)
 	plot(iris)
 
-=cut
-
 =head1 METHODS
 
 =head2 process
 
 The process is the method used by Catalyst.
 
-=cut
+=head1 SOURCE AVAILABILITY
 
+This source is in Github:
+
+        git://github.com/eriam/Catalyst-View-R.git
+
+=head1 AUTHOR
+
+Eriam Schaffter, C<< <eriam@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
