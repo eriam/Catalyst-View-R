@@ -60,3 +60,35 @@ sub process {
 
 
 1;
+=head1 NAME
+
+Catalyst::View::R - A Catalyst view for R
+
+=head1 SYNOPSIS
+
+In a controller:
+
+	sub main : Path {
+	    my ( $self, $c ) = @_;
+	    
+	   $c->log->info('ok');
+	   $c->stash->{r} = 'iris.r';  
+	   
+	   $c->forward( $c->component('R') );
+	}
+
+With the correspondig view:
+
+	data(iris)
+	plot(iris)
+
+=cut
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2012 Eriam Schaffter.  All rights reserved.
+
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
