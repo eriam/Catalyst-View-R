@@ -84,6 +84,15 @@ With the correspondig view:
 
 =cut
 
+=head1 METHODS
+
+=head2 process
+
+The process is the method used by Catalyst.
+
+=cut
+
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright (c) 2012 Eriam Schaffter.  All rights reserved.
