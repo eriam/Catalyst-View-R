@@ -12,8 +12,11 @@ WriteMakefile(
       : ()),
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More'       => 0,
-        'Statistics::R'  => 0,
+        'Test::More'       								=> 0,
+        'File::Slurp'       							=> 0,
+        'Catalyst::View::TT'       				=> 0,
+        'Test::WWW::Mechanize::Catalyst'	=> 0,
+        'Statistics::R'  									=> 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Catalyst-View-R*' },
